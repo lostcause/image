@@ -1,3 +1,6 @@
+## Note:
+This is just like Creolab/Image, I just want to rename the alias so it doesn't overlap the Intervention/Image one.
+
 Image
 =====
 
