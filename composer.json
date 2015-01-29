@@ -1,6 +1,6 @@
 {
-    "name": "creolab/image",
-    "description": "Manipulate images, create thumbs, crop...",
+    "name": "lostcause/image",
+    "description": "Based on Creolab\Image. Manipulate images, create thumbs, crop...",
     "keywords": ["image", "thumb", "crop", "laravel"],
     "authors": [
         {
