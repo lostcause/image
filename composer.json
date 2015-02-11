@@ -2,6 +2,7 @@
     "name": "lostcause/image",
     "description": "Based on Creolab\\Image. Manipulate images, create thumbs, crop...",
     "keywords": ["image", "thumb", "crop", "laravel"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Boris Strahija",
