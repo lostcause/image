@@ -6,7 +6,12 @@
         {
             "name": "Boris Strahija",
             "email": "boris@creolab.hr"
-        }
+        },
+        {
+            "name": "Alex",
+            "email": "astanciu@edris.ro",
+            "role": "Minor :)"
+        }        
     ],
     "require": {
         "php": ">=5.3.0",
