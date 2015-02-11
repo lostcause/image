@@ -11,7 +11,7 @@ Framework agnostic coming soon.
 
 Simply add the following to your **composer.json** file:
 
-    "creolab/image": "dev-master"
+    "lostcause/image": "dev-master"
 
 And you can also add the service provider to **app/config/app.php**:
 
@@ -19,16 +19,16 @@ And you can also add the service provider to **app/config/app.php**:
 
 And register the facade in the same file under aliases:
 
-    'Image' => 'Creolab\Image\ImageFacade',
+    'CreolabImage' => 'Creolab\Image\ImageFacade',
 
 ## Usage
 
 You can use the library directly in your views like this:
 
-    <img src="{{ Image::resize('public/path/to/image.jpg', 640, 480) }}">
+    <img src="{{ CreolabImage::resize('public/path/to/image.jpg', 640, 480) }}">
 
 Also to generate square thumbs:
 
-    <img src="{{ Image::thumb('public/path/to/image.jpg', 80) }}">
+    <img src="{{ CreolabImage::thumb('public/path/to/image.jpg', 80) }}">
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/creolab/image/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
